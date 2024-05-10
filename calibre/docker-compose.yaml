@@ -12,7 +12,7 @@ services:
     volumes:
       - /Container/calibre-config:/config
     ports:
-      - 8080:8080
-      - 8181:8181
-      - 8081:8081
+      - 9080:8080
+      - 9181:8181
+      - 9081:8081
     restart: unless-stopped
